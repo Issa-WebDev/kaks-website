@@ -1,13 +1,29 @@
+// App.jsx
 import React from "react";
-import { FaPlay } from "react-icons/fa";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Products from "./components/Product";
+import Gallery from "./components/Gallery";
+import Testimonials from "./components/Testimonials";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <FaPlay size={40} className="text-violet-700" />
-      <h1 className="text-teal-500 underline">vite + react + tailwind</h1>
-    </div>
+    <>
+      <Header />
+      <Hero />
+      <About />
+      <Products />
+      <Gallery />
+      <Testimonials />
+      <Contact />
+      <Footer />
+      <ScrollToTop />
+    </>
   );
-};
+}
 
 export default App;
