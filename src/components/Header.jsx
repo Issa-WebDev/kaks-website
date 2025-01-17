@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
-      <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-10">
+      <div className="container mx-auto flex justify-between items-center py-4 px-6">
         {/* Logo */}
         <img
           src="/logo/logo-removebg-preview.png"
@@ -36,7 +36,7 @@ const Header = () => {
             <li>
               <a
                 href="#hero"
-                onClick={closeMenu} 
+                onClick={closeMenu}
                 className="block py-2 px-2 text-gray-600 hover:text-green-400 hover:underline transition-all duration-500"
               >
                 Présentation
@@ -45,7 +45,7 @@ const Header = () => {
             <li>
               <a
                 href="#about"
-                onClick={closeMenu} 
+                onClick={closeMenu}
                 className="block py-2 px-2 text-gray-600 hover:text-green-400 hover:underline transition-all duration-500"
               >
                 Àpropos
@@ -54,7 +54,7 @@ const Header = () => {
             <li>
               <a
                 href="#products"
-                onClick={closeMenu} 
+                onClick={closeMenu}
                 className="block py-2 px-2 text-gray-600 hover:text-green-400 hover:underline transition-all duration-500"
               >
                 Produits/Services
@@ -63,7 +63,7 @@ const Header = () => {
             <li>
               <a
                 href="#gallery"
-                onClick={closeMenu} 
+                onClick={closeMenu}
                 className="block py-2 px-2 text-gray-600 hover:text-green-400 hover:underline transition-all duration-500"
               >
                 Galerie
@@ -72,19 +72,28 @@ const Header = () => {
             <li>
               <a
                 href="#testimonials"
-                onClick={closeMenu} 
+                onClick={closeMenu}
                 className="block py-2 px-2 text-gray-600 hover:text-green-400 hover:underline transition-all duration-500"
               >
-                Témoignages
+                Avis
               </a>
             </li>
             <li>
               <a
                 href="#contact"
-                onClick={closeMenu} 
+                onClick={closeMenu}
                 className="block py-2 px-2 text-gray-600 hover:text-green-400 hover:underline transition-all duration-500"
               >
                 Contact
+              </a>
+            </li>
+            <li>
+              <a
+                href="#partners"
+                onClick={closeMenu}
+                className="block py-2 px-2 text-gray-600 hover:text-green-400 hover:underline transition-all duration-500"
+              >
+                Parténaires
               </a>
             </li>
           </ul>

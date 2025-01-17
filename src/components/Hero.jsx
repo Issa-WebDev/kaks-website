@@ -7,17 +7,17 @@ const Hero = () => {
       id="hero"
       className="h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center"
       style={{
-        backgroundImage: "url('/images/banner2.avif')",
+        backgroundImage: "url('/images/equipe2.jpg')",
         backgroundSize: "cover",
       }}
     >
-      <div className="flex w-full flex-col items-center text-center text-white px-4 md:px-10">
-        <h1 className="text-3xl md:text-5xl font-bold">
+      <div className="container mx-auto px-6 flex w-full flex-col items-center text-center text-white">
+        <h1 className="text-3xl md:text-5xl font-bold text-white">
           Bienvenue Chez Kak's Etablissement
         </h1>
-        <p className="text w-full mt-[50px] rounded-lg text-gray-900 p-[30px] font-bold text-sm md:text-lg max-w-4xl">
-          Votre partenaire de nettoyage professionnel et dynamique.{" "}
-          <span className="text-green-600 font-bold">KAK'S ETABLISSEMENT</span>{" "}
+        <p className="text w-full mt-[50px] rounded-lg text-gray-900 p-[30px] font-bold text-sm md:text-lg max-w-4xl transition duration-700 ease-in-out hover:scale-110 cursor-pointer">
+          Votre partenaire de nettoyage professionnel et dynamique.
+          <span className="text-green-600 font-bold">KAK'S ETABLISSEMENT</span>
           est une entreprise de nettoyage professionnelle et dynamique basée à
           Abidjan, en Côte d'Ivoire. Nous offrons une large gamme de services de
           nettoyage, y compris le nettoyage industriel, le nettoyage
@@ -27,6 +27,7 @@ const Hero = () => {
           d'équipements de nettoyage, l'aménagement d'espaces verts et des
           prestations diverses.
         </p>
+
         <a
           href="#about"
           className="flex items-center justify-center mt-10 animate-bounce"

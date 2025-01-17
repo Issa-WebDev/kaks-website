@@ -24,13 +24,13 @@ const Gallery = () => {
   };
 
   return (
-    <section id="gallery" className="py-12 pt-[120px] bg-white px-[20px]">
-      <div className="container mx-auto text-center">
+    <section id="gallery" className="py-12 pt-[120px] bg-white">
+      <div className="container mx-auto text-center px-6">
         <h2 className="text-3xl font-bold mb-8">Gallerie d'images</h2>
 
         <div className="relative">
           <Swiper
-            ref={swiperRef} 
+            ref={swiperRef}
             spaceBetween={10}
             slidesPerView={1}
             loop={true}
@@ -51,7 +51,7 @@ const Gallery = () => {
                 <img
                   src={src}
                   alt={`Gallery image ${index + 1}`}
-                  className="w-full h-64 object-cover rounded shadow-md"
+                  className="w-full h-64 object-cover rounded shadow-md transform transition-transform duration-300 hover:scale-95 cursor-pointer hover:shadow-lg"
                 />
               </SwiperSlide>
             ))}
