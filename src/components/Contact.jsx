@@ -6,7 +6,7 @@ import {
   FaInstagram,
   FaPhoneAlt,
   FaEnvelope,
-} from "react-icons/fa"; 
+} from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -15,14 +15,14 @@ const Contact = () => {
         <h2 className="text-3xl font-bold mb-8">Contactez-nous</h2>
         <div className="space-y-6">
           <p className="text-lg">
-            Vous pouvez nous contacter sur nos réseaux sociaux ou directement par
-            téléphone.
+            Vous pouvez nous contacter sur nos réseaux sociaux ou directement
+            par téléphone.
           </p>
 
           {/* Liens vers les réseaux sociaux */}
           <div className="flex justify-center space-x-6">
             <a
-              href="https://wa.me/1234567890" 
+              href="https://wa.me/1234567890"
               target="_blank"
               rel="noopener noreferrer"
               className="text-xl text-green-500 hover:text-green-600"
@@ -30,7 +30,7 @@ const Contact = () => {
               <FaWhatsapp size={25} />
             </a>
             <a
-              href="https://twitter.com/toncompte" 
+              href="https://twitter.com/toncompte"
               target="_blank"
               rel="noopener noreferrer"
               className="text-xl text-blue-500 hover:text-blue-600"
@@ -38,7 +38,7 @@ const Contact = () => {
               <FaTwitter size={25} />
             </a>
             <a
-              href="https://facebook.com/toncompte" 
+              href="https://facebook.com/Etablissement-KAKS"
               target="_blank"
               rel="noopener noreferrer"
               className="text-xl text-blue-700 hover:text-blue-800"
@@ -46,7 +46,7 @@ const Contact = () => {
               <FaFacebookF size={25} />
             </a>
             <a
-              href="https://instagram.com/toncompte" 
+              href="https://instagram.com/toncompte"
               target="_blank"
               rel="noopener noreferrer"
               className="text-xl text-pink-500 hover:text-pink-600"
@@ -58,7 +58,7 @@ const Contact = () => {
           {/* Lien email avec icône */}
           <div className="mt-6">
             <p className="text-lg">
-              Vous pouvez mous envoyer un e-mail au :{" "}
+              Vous pouvez mous envoyer un e-mail au :
               <a
                 href="mailto:tonemail@example.com"
                 className="text-blue-600 hover:text-blue-700 flex items-center justify-center"
@@ -71,9 +71,9 @@ const Contact = () => {
           {/* Lien pour appel direct avec icône */}
           <div className="mt-6">
             <p className="text-lg">
-              Pour un appel direct, cliquez sur le lien ci-dessous :{" "}
+              Pour un appel direct, cliquez sur le lien ci-dessous :
               <a
-                href="tel:+1234567890" 
+                href="tel:+"
                 className="text-green-600 hover:text-green-700 flex items-center justify-center"
               >
                 <FaPhoneAlt size={25} className="mr-2" /> Appeler maintenant
