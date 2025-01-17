@@ -5,14 +5,14 @@ const About = () => {
     <section id="about" className="py-12 pt-[120px] bg-white">
       <div className="container mx-auto text-center px-6">
         <h2 className="text-3xl font-bold mb-8">À Propos</h2>
-        <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2">
+        <div className="grid gap-8 grid-cols-1 xl:grid-cols-2">
           <img
-            className="rounded"
+            className="rounded  transform transition-transform duration-300 hover:scale-105"
             src="/images/equipe1.jpg"
             alt="notre equipe"
           />
           {/* Notre Histoire */}
-          <div className="bg-gray-100 rounded shadow-md p-6 flex flex-col items-center justify-center text-center">
+          <div className="bg-gray-100 rounded shadow-md p-6 flex flex-col items-center justify-center text-center  transform transition-transform duration-300 hover:scale-105">
             <h1 className="text-2xl font-bold pb-4">Notre Histoire</h1>
             <p className="text-gray-700 leading-relaxed">
               Une aventure depuis 2017. En 2017, animés par une vision claire et
@@ -34,7 +34,7 @@ const About = () => {
           </div>
 
           {/* Notre Équipe */}
-          <div className="bg-gray-100 rounded shadow-md p-6 flex flex-col items-center justify-center text-center">
+          <div className="bg-gray-100 rounded shadow-md p-6 flex flex-col items-center justify-center text-center  transform transition-transform duration-300 hover:scale-105">
             <h1 className="text-2xl font-bold pb-4">Notre Équipe</h1>
             <p className="text-gray-700 leading-relaxed">
               En plaçant la satisfaction de nos clients au cœur de notre
@@ -53,7 +53,7 @@ const About = () => {
           </div>
 
           <img
-            className="rounded"
+            className="rounded  transform transition-transform duration-300 hover:scale-105"
             src="/images/equipe2.jpg"
             alt="notre equipe"
           />

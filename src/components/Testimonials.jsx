@@ -3,9 +3,9 @@ import React from "react";
 const Testimonials = () => {
   const testimonials = [
     { name: "- Kone Issa", feedback: "Ce services est incroyable🌞!" },
-    { name: "- Kouassi Micheal", feedback: "Ma maison est propre maintenant🤟🏻." },
+    { name: "- Soualio Cissé", feedback: "Ma maison est propre maintenant🤟🏻." },
     {
-      name: "- Sowo Massamba",
+      name: "- Sowo Maïmouna",
       feedback: "J'ai vraiment aimé l'exprérince merci🙏🏻🙏🏻",
     },
   ];
@@ -21,8 +21,8 @@ const Testimonials = () => {
           >
             {/* Card Image */}
             <div className="h-40 bg-gray-100 flex items-center justify-center">
-              <p className="text-xl font-bold text-gray-600 group-hover:scale-110 transition-transform duration-300">
-                {testimonial.feedback}
+              <p className="text-md font-bold text-gray-600 group-hover:scale-110 transition-transform duration-300">
+                "{testimonial.feedback}"
               </p>
             </div>
 

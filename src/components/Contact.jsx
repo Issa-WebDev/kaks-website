@@ -83,9 +83,9 @@ const Contact = () => {
           </div>
         </div>
         <img
-          src="images/affiche.jpg"
+          src="logo/kaks-etablissementQRCode.png"
           alt="affiche"
-          className="h-[300px] w-[250px] mt-10"
+          className="mt-10"
         />
       </div>
     </section>
