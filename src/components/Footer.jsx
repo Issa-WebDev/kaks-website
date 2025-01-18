@@ -7,7 +7,7 @@ const Footer = () => {
         <p>
           &copy; {new Date().getFullYear()} Kak's Etablissement. Made by
           <a
-            href="https://github.com/Issa-WebDev/Issa-WebDev.github.io"
+            href="https://issa-webdev.github.io"
             target="_blank"
             className="text-teal-600 hover:text-teal-400 font-bold italic underline"
           >
