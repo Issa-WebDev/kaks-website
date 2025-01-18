@@ -17,7 +17,7 @@ const Hero = () => {
         </h1>
         <p className="text w-full mt-[50px] rounded-lg text-gray-900 p-[30px] font-bold text-sm md:text-lg max-w-4xl transition duration-700 ease-in-out hover:scale-110 cursor-pointer">
           Votre partenaire de nettoyage professionnel et dynamique.
-          <span className="text-green-600 font-bold">KAK'S ETABLISSEMENT</span>
+          <span className="text-green-800 font-medium">KAK'S ETABLISSEMENT </span>
           est une entreprise de nettoyage professionnelle et dynamique basée à
           Abidjan, en Côte d'Ivoire. Nous offrons une large gamme de services de
           nettoyage, y compris le nettoyage industriel, le nettoyage

@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import Partners from "./components/Partners";
+import QRCodeGenerator from "./components/QRCodeGenerator";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Gallery />
       <Testimonials />
       <Contact />
+      <QRCodeGenerator url={"https://kaks-gamma.vercel.app/"} />
       <Partners />
       <Footer />
       <ScrollToTop />

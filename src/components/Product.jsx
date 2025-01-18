@@ -38,7 +38,7 @@ const Products = () => {
                 src={product.img}
                 alt={product.name}
               />
-              <p className="text-gray-600">{product.description}</p>
+              <p className="text-gray-600 font-medium">{product.description}</p>
             </div>
           ))}
         </div>

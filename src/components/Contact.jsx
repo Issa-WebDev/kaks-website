@@ -82,11 +82,11 @@ const Contact = () => {
             </p>
           </div>
         </div>
-        <img
+        {/* <img
           src="logo/kaks-etablissementQRCode.png"
           alt="affiche"
           className="mt-10"
-        />
+        /> */}
       </div>
     </section>
   );

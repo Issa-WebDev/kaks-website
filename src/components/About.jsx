@@ -14,7 +14,7 @@ const About = () => {
           {/* Notre Histoire */}
           <div className="bg-gray-100 rounded shadow-md p-6 flex flex-col items-center justify-center text-center  transform transition-transform duration-300 hover:scale-105">
             <h1 className="text-2xl font-bold pb-4">Notre Histoire</h1>
-            <p className="text-gray-700 leading-relaxed">
+            <p className="text-gray-700 leading-relaxed italic">
               Une aventure depuis 2017. En 2017, animés par une vision claire et
               une volonté de faire la différence dans le secteur du nettoyage,
               la structure KAK’S ETS a été fondée. Dès le départ, notre objectif
@@ -36,7 +36,7 @@ const About = () => {
           {/* Notre Équipe */}
           <div className="bg-gray-100 rounded shadow-md p-6 flex flex-col items-center justify-center text-center  transform transition-transform duration-300 hover:scale-105">
             <h1 className="text-2xl font-bold pb-4">Notre Équipe</h1>
-            <p className="text-gray-700 leading-relaxed">
+            <p className="text-gray-700 leading-relaxed italic">
               En plaçant la satisfaction de nos clients au cœur de notre
               démarche, nous avons construit des relations solides et durables.
               Chaque projet est pour nous une nouvelle opportunité de démontrer
