@@ -25,11 +25,14 @@ const Products = () => {
   return (
     <section id="products" className="py-12 pt-[120px] bg-gray-100">
       <div className="container mx-auto text-center px-6">
-        <h2 className="text-3xl font-bold mb-8">Nos Produits</h2>
+        <h2 className="text-3xl font-bold mb-8" data-aos="fade-right">
+          Nos Produits
+        </h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
           {products.map((product, index) => (
             <div
               key={index}
+              data-aos="fade-right"
               className="flex flex-col items-center p-6 bg-white rounded shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-lg"
             >
               <h3 className="text-lg font-bold mb-2">{product.name}</h3>

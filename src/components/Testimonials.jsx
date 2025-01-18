@@ -21,11 +21,14 @@ const Testimonials = () => {
 
   return (
     <section id="testimonials" className="py-12 pt-[120px] bg-white">
-      <h2 className="text-3xl font-bold mb-8 text-center">Avis Clients</h2>
+      <h2 className="text-3xl font-bold mb-8 text-center" data-aos="fade-right">
+        Avis Clients
+      </h2>
       <div className="container mx-auto text-center px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {testimonials.map((testimonial, index) => (
           <div
             key={index}
+            data-aos="fade-right"
             className="relative bg-white rounded-lg shadow-md overflow-hidden transform transition-transform duration-300 hover:scale-105 hover:shadow-lg group"
           >
             {/* Card Image */}

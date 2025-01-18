@@ -38,14 +38,19 @@ const Services = () => {
   return (
     <section className="py-12 pt-[120px] bg-white">
       <div className="container mx-auto text-center px-6">
-        <h2 className="text-3xl font-bold mb-8">Nos Services</h2>
+        <h2 className="text-3xl font-bold mb-8" data-aos="fade-right">
+          Nos Services
+        </h2>
         <div className="services-container grid grid-cols-1 md:grid-cols-3 gap-6">
           {servicesData.map((service) => (
             <div
               key={service.id}
+              data-aos="fade-right"
               className="service-card border p-4 rounded shadow bg-gray-100"
             >
-              <h3 className="text-md font-semibold mb-4">{service.title}</h3>
+              <h3 className="text-md font-semibold mb-4" data-aos="fade-right">
+                {service.title}
+              </h3>
               <video controls className="w-full h-60 mb-2">
                 <source src={service.src} type="video/mp4" />
               </video>
@@ -56,9 +61,12 @@ const Services = () => {
           {servicesDataImg.map((service) => (
             <div
               key={service.id}
+              data-aos="fade-right"
               className="border p-4 rounded shadow bg-white"
             >
-              <h3 className="text-md font-semibold w-full mb-4">{service.title}</h3>
+              <h3 className="text-md font-semibold w-full mb-4">
+                {service.title}
+              </h3>
               <img
                 src={service.src}
                 alt={service.title}

@@ -11,11 +11,17 @@ const Partners = () => {
   return (
     <section id="partners" className="py-12 pt-[120px] bg-gray-50">
       <div className="container text-center mx-auto px-6">
-        <h2 className="text-2xl md:text-3xl font-bold mb-8">Nos Partenaires</h2>
+        <h2
+          className="text-2xl md:text-3xl font-bold mb-8"
+          data-aos="fade-right"
+        >
+          Nos Partenaires
+        </h2>
         <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {partners.map((partner) => (
             <div
               key={partner.id}
+              data-aos="fade-right"
               className="bg-gray-100 shadow-md rounded-lg p-6 flex items-center justify-center hover:scale-105 transition-transform duration-300 ease-in-out"
             >
               <img

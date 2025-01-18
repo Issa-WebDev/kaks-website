@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="bg-gray-200 py-4 text-gray-700">
-      <div className="container mx-auto text-center">
+      <div className="container mx-auto text-center" data-aos="fade-right">
         <p>
           &copy; {new Date().getFullYear()} Kak's Etablissement. Made by
           <a

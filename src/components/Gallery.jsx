@@ -26,7 +26,9 @@ const Gallery = () => {
   return (
     <section id="gallery" className="py-12 pt-[120px] bg-white">
       <div className="container mx-auto text-center px-6">
-        <h2 className="text-3xl font-bold mb-8">Gallerie d'images</h2>
+        <h2 className="text-3xl font-bold mb-8" data-aos="fade-right">
+          Gallerie d'images
+        </h2>
 
         <div className="relative">
           <Swiper
@@ -47,7 +49,7 @@ const Gallery = () => {
             }}
           >
             {images.map((src, index) => (
-              <SwiperSlide key={index}>
+              <SwiperSlide key={index} data-aos="fade-right">
                 <img
                   src={src}
                   alt={`Gallery image ${index + 1}`}
