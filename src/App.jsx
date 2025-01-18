@@ -18,7 +18,7 @@ import QRCodeGenerator from "./components/QRCodeGenerator";
 function App() {
   useEffect(() => {
     AOS.init({
-      duration: 2000,
+      duration: 1500,
       once: true,
     });
   }, []);

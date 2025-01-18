@@ -49,7 +49,7 @@ const Gallery = () => {
             }}
           >
             {images.map((src, index) => (
-              <SwiperSlide key={index} data-aos="fade-right">
+              <SwiperSlide key={index}>
                 <img
                   src={src}
                   alt={`Gallery image ${index + 1}`}
