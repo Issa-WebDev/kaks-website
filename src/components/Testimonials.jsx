@@ -5,17 +5,17 @@ const Testimonials = () => {
     {
       name: "- Kone Issa",
       feedback:
-        "Je suis vraiment impressionné par la qualité du service ! L'équipe a été très professionnelle et rapide, et ma maison n'a jamais été aussi propre. Leur attention aux détails est incroyable. Je recommande vivement à tous ceux qui recherchent un service de nettoyage fiable et efficace !",
+        "Un service impeccable, rapide et efficace : ma maison est comme neuve !",
     },
     {
       name: "- Soualio Cissé",
       feedback:
-        "Un service impeccable du début à la fin. Les agents de nettoyage étaient ponctuels, courtois et très bien équipés. Ils ont réussi à éliminer des taches que je pensais impossibles à enlever. Merci pour ce travail exceptionnel, je ferai de nouveau appel à vous sans hésiter.",
+        "Les bureaux sont toujours impeccables grâce à leur travail soigné et professionnel.",
     },
     {
       name: "- Sowo Maïmouna",
       feedback:
-        "J'ai fait appel à leurs services pour nettoyer mon bureau et je suis extrêmement satisfait ! L'endroit est devenu éclatant, et même l'air semble plus frais. Le personnel est professionnel et respectueux. C'est clairement le meilleur service de nettoyage de la région.",
+        "Après mes travaux de rénovation, ils ont rendu mon appartement impeccable en un temps record.",
     },
   ];
 
