@@ -40,7 +40,7 @@ const Header = () => {
               <a
                 href="#hero"
                 onClick={closeMenu}
-                className="block py-2 px-2 text-gray-600 dark:text-white  hover:text-green-400 hover:underline transition-all duration-500"
+                className="block py-2 px-2 text-gray-600 dark:text-white  hover:text-green-500 hover:underline dark:hover:text-green-500 transition-all duration-500"
               >
                 Accueil
               </a>
@@ -49,7 +49,7 @@ const Header = () => {
               <a
                 href="#about"
                 onClick={closeMenu}
-                className="block py-2 px-2 text-gray-600 dark:text-white  hover:text-green-400 hover:underline transition-all duration-500"
+                className="block py-2 px-2 text-gray-600 dark:text-white  hover:text-green-500 hover:underline dark:hover:text-green-500 transition-all duration-500"
               >
                 Àpropos
               </a>
@@ -58,7 +58,7 @@ const Header = () => {
               <a
                 href="#products"
                 onClick={closeMenu}
-                className="block py-2 px-2 text-gray-600 dark:text-white  hover:text-green-400 hover:underline transition-all duration-500"
+                className="block py-2 px-2 text-gray-600 dark:text-white  hover:text-green-500 hover:underline dark:hover:text-green-500 transition-all duration-500"
               >
                 Matériels
               </a>
@@ -67,7 +67,7 @@ const Header = () => {
               <a
                 href="#services"
                 onClick={closeMenu}
-                className="block py-2 px-2 text-gray-600 dark:text-white  hover:text-green-400 hover:underline transition-all duration-500"
+                className="block py-2 px-2 text-gray-600 dark:text-white  hover:text-green-500 hover:underline dark:hover:text-green-500 transition-all duration-500"
               >
                 Services
               </a>
@@ -76,7 +76,7 @@ const Header = () => {
               <a
                 href="#gallery"
                 onClick={closeMenu}
-                className="block py-2 px-2 text-gray-600 dark:text-white  hover:text-green-400 hover:underline transition-all duration-500"
+                className="block py-2 px-2 text-gray-600 dark:text-white  hover:text-green-500 hover:underline dark:hover:text-green-500 transition-all duration-500"
               >
                 Galerie
               </a>
@@ -85,7 +85,7 @@ const Header = () => {
               <a
                 href="#testimonials"
                 onClick={closeMenu}
-                className="block py-2 px-2 text-gray-600 dark:text-white  hover:text-green-400 hover:underline transition-all duration-500"
+                className="block py-2 px-2 text-gray-600 dark:text-white  hover:text-green-500 hover:underline dark:hover:text-green-500 transition-all duration-500"
               >
                 Avis
               </a>
@@ -94,7 +94,7 @@ const Header = () => {
               <a
                 href="#contact"
                 onClick={closeMenu}
-                className="block py-2 px-2 text-gray-600 dark:text-white  hover:text-green-400 hover:underline transition-all duration-500"
+                className="block py-2 px-2 text-gray-600 dark:text-white  hover:text-green-500 hover:underline dark:hover:text-green-500 transition-all duration-500"
               >
                 Contact
               </a>
@@ -103,7 +103,7 @@ const Header = () => {
               <a
                 href="#partners"
                 onClick={closeMenu}
-                className="block py-2 px-2 text-gray-600 dark:text-white  hover:text-green-400 hover:underline transition-all duration-500"
+                className="block py-2 px-2 text-gray-600 dark:text-white  hover:text-green-500 hover:underline dark:hover:text-green-500 transition-all duration-500"
               >
                 Parténaires
               </a>

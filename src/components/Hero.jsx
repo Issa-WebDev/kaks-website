@@ -16,14 +16,16 @@ const Hero = () => {
       <div class="absolute inset-0 bg-black bg-opacity-50 dark:bg-opacity-70"></div>
       <div className="container mx-auto px-6 flex w-full flex-col items-center text-center text-white">
         <AnimatedElement>
-          <h1 class="text-4xl font-extrabold dark:text-white border-b-8 border-green-500 inline-block">
-            Bienvenue Chez Kak's Etablissement
+          <h1 class="text-3xl lg:text-5xl font-extrabold dark:text-white border-b-4 border-green-500 inline-block">
+            Bienvenue Chez <span className="text-green-500">Kak's</span>{" "}
+            Etablissement
           </h1>
         </AnimatedElement>
         <AnimatedElement>
           <p className="text w-full mt-[50px] rounded-lg dark:bg-[#111] text-gray-900 dark:text-gray-200 p-[30px] font-bold text-sm md:text-lg max-w-4xl transition duration-700 ease-in-out hover:scale-110 cursor-pointer">
             Votre partenaire de nettoyage professionnel et industriel.
-            <span className="text-green-800 font-medium">
+            <span className="text-green-800 dark:text-green-400 font-bold">
+              {" "}
               KAK'S ETABLISSEMENT{" "}
             </span>
             est une entreprise de nettoyage professionnelle et dynamique basée à

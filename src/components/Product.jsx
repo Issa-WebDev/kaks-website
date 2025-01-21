@@ -41,7 +41,7 @@ const Products = () => {
                 key={index}
                 className="flex flex-col items-center p-6 bg-white dark:bg-[#222] rounded shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-lg border dark:border-none cursor-pointer h-full"
               >
-                <h3 className="text-lg font-bold mb-2 dark:text-white">
+                <h3 className="text-lg font-bold mb-2 border-l-4 pl-2 border-green-500 dark:text-white">
                   {product.name}
                 </h3>
                 <img

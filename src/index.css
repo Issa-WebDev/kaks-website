@@ -5,7 +5,12 @@
 html {
   scroll-behavior: smooth;
 }
-
 .text {
   background: rgba(225, 225, 225, 0.7);
 }
+
+/* @layer utilities {
+  body {
+    @apply scrollbar-thin scrollbar-thumb-indigo-500 scrollbar-track-gray-300;
+  }
+} */

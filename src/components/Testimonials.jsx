@@ -45,7 +45,7 @@ const Testimonials = () => {
 
               {/* Card Content */}
               <div className="p-6">
-                <p className="text-gray-700 dark:text-white font-bold">
+                <p className="text-gray-700 dark:text-white font-extrabold">
                   {testimonial.name}
                 </p>
               </div>

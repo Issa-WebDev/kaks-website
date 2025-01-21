@@ -13,7 +13,7 @@ const About = () => {
         <div className="grid gap-8 grid-cols-1 xl:grid-cols-2">
           <AnimatedElement>
             <img
-              className="rounded  transform transition-transform duration-300 hover:scale-105 border h-full dark:border-none"
+              className="rounded w-full transform transition-transform duration-300 hover:scale-105 border dark:border-none"
               src="/images/equipe1.jpg"
               alt="notre equipe"
             />
@@ -21,10 +21,10 @@ const About = () => {
           {/* Notre Histoire */}
           <AnimatedElement>
             <div className="bg-gray-100 dark:bg-[#333] rounded shadow-md p-6 flex flex-col items-center justify-center text-center  transform transition-transform duration-300 hover:scale-105 border h-full dark:border-none">
-              <h1 className="text-2xl font-bold pb-4 dark:text-white">
+              <h1 className="text-2xl border-l-4 pl-2 border-green-500 font-bold dark:text-white">
                 Notre Histoire
               </h1>
-              <p className="text-gray-700 leading-relaxed italic dark:border-none dark:text-white ">
+              <p className="text-gray-700 leading-relaxed italic pt-4 dark:border-none dark:text-white ">
                 Une aventure depuis 2017. En 2017, animés par une vision claire
                 et une volonté de faire la différence dans le secteur du
                 nettoyage, la structure KAK’S ETS a été fondée. Dès le départ,
@@ -48,10 +48,10 @@ const About = () => {
           {/* Notre Équipe */}
           <AnimatedElement>
             <div className="bg-gray-100 dark:bg-[#333]  rounded shadow-md p-6 flex flex-col items-center justify-center text-center  transform transition-transform duration-300 hover:scale-105 border h-full dark:border-none">
-              <h1 className="text-2xl font-bold pb-4 dark:text-white">
+              <h1 className="text-2xl font-bold  border-l-4 pl-2 border-green-500 dark:text-white">
                 Notre Équipe
               </h1>
-              <p className="text-gray-700 leading-relaxed italic dark:text-white ">
+              <p className="text-gray-700 pt-4 leading-relaxed italic dark:text-white ">
                 En plaçant la satisfaction de nos clients au cœur de notre
                 démarche, nous avons construit des relations solides et
                 durables. Chaque projet est pour nous une nouvelle opportunité
@@ -70,7 +70,7 @@ const About = () => {
 
           <AnimatedElement>
             <img
-              className="rounded  transform transition-transform duration-300 hover:scale-105 border h-full dark:border-none"
+              className="rounded w-full transform transition-transform duration-300 hover:scale-105 border dark:border-none"
               src="/images/equipe2.jpg"
               alt="notre equipe"
             />
