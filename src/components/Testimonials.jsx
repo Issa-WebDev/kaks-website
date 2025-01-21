@@ -24,15 +24,14 @@ const Testimonials = () => {
       className="py-12 pt-[120px] dark:bg-[#222] text-center bg-white"
     >
       <AnimatedElement>
-        <h1 class="text-4xl  font-extrabold mb-8 text-gray-800 dark:text-white border-b-4 border-green-500 inline-block">
+        <h1 className="text-4xl  font-extrabold mb-8 text-gray-800 dark:text-white border-b-4 border-green-500 inline-block">
           Avis Clients
         </h1>
       </AnimatedElement>
       <div className="container mx-auto text-center px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {testimonials.map((testimonial, index) => (
-          <AnimatedElement>
+          <AnimatedElement key={index}>
             <div
-              key={index}
               data-aos="fade-right"
               className="relative bg-white dark:bg-[#111] rounded-lg shadow-md overflow-hidden transform transition-transform duration-300 hover:scale-105 hover:shadow-lg group border dark:border-none"
             >

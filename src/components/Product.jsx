@@ -30,17 +30,14 @@ const Products = () => {
     >
       <div className="container mx-auto text-center px-6">
         <AnimatedElement>
-          <h1 class="text-4xl font-extrabold mb-8 text-gray-800 dark:text-white border-b-4 border-green-500 inline-block">
+          <h1 className="text-4xl font-extrabold mb-8 text-gray-800 dark:text-white border-b-4 border-green-500 inline-block">
             Nos Matériels
           </h1>
         </AnimatedElement>
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
           {products.map((product, index) => (
-            <AnimatedElement>
-              <div
-                key={index}
-                className="flex flex-col items-center p-6 bg-white dark:bg-[#222] rounded shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-lg border dark:border-none cursor-pointer h-full"
-              >
+            <AnimatedElement key={index}>
+              <div className="flex flex-col items-center p-6 bg-white dark:bg-[#222] rounded shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-lg border dark:border-none cursor-pointer h-full">
                 <h3 className="text-lg font-bold mb-2 border-l-4 pl-2 border-green-500 dark:text-white">
                   {product.name}
                 </h3>

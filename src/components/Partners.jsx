@@ -12,21 +12,18 @@ const Partners = () => {
   return (
     <section
       id="partners"
-      className="py-12 pt-[120px] bg-gray-50 dark:bg-[#111]"
+      className="py-12 pt-[125px]  lg:pt-[280px] lg:pb-36 bg-gray-50 dark:bg-[#111]"
     >
       <div className="container text-center mx-auto px-6">
         <AnimatedElement>
-          <h1 class="text-4xl font-extrabold mb-8 text-gray-800 dark:text-white border-b-4 border-green-500 inline-block">
+          <h1 className="text-4xl font-extrabold mb-8 text-gray-800 dark:text-white border-b-4 border-green-500 inline-block">
             Nos Parténaires
           </h1>
         </AnimatedElement>
         <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {partners.map((partner) => (
-            <AnimatedElement>
-              <div
-                key={partner.id}
-                className="bg-gray-100 dark:bg-[#222] shadow-md dark:shadow-none rounded-lg p-6 flex items-center justify-center hover:scale-105 transition-transform duration-300 ease-in-out border dark:border-none"
-              >
+            <AnimatedElement key={partner.id}>
+              <div className="bg-gray-100 dark:bg-[#222] shadow-md dark:shadow-none rounded-lg p-6 flex items-center justify-center hover:scale-105 transition-transform duration-300 ease-in-out border dark:border-none">
                 <img
                   src={partner.logo}
                   alt={partner.name}

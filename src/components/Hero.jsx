@@ -13,10 +13,10 @@ const Hero = () => {
       }}
     >
       {/* overlay */}
-      <div class="absolute inset-0 bg-black bg-opacity-50 dark:bg-opacity-70"></div>
+      <div className="absolute inset-0 bg-black bg-opacity-50 dark:bg-opacity-70"></div>
       <div className="container mx-auto px-6 flex w-full flex-col items-center text-center text-white">
         <AnimatedElement>
-          <h1 class="text-3xl lg:text-5xl font-extrabold dark:text-white border-b-4 border-green-500 inline-block">
+          <h1 className="text-3xl lg:text-5xl font-extrabold dark:text-white border-b-4 border-green-500 inline-block">
             Bienvenue Chez <span className="text-green-500">Kak's</span>{" "}
             Etablissement
           </h1>

@@ -6,7 +6,7 @@ const About = () => {
     <section id="about" className="py-12 pt-[120px] bg-white dark:bg-[#222] ">
       <div className="container mx-auto text-center px-6">
         <AnimatedElement>
-          <h1 class="text-4xl font-extrabold mb-8 text-gray-800 dark:text-white border-b-4 border-green-500 inline-block">
+          <h1 className="text-4xl font-extrabold mb-8 text-gray-800 dark:text-white border-b-4 border-green-500 inline-block">
             A Propos
           </h1>
         </AnimatedElement>

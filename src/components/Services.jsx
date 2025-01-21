@@ -39,17 +39,14 @@ const Services = () => {
     <section id="services" className="py-12 pt-[120px] bg-white dark:bg-[#222]">
       <div className="container mx-auto text-center px-6">
         <AnimatedElement>
-          <h1 class="text-4xl font-extrabold mb-8 text-gray-800 dark:text-white border-b-4 border-green-500 inline-block">
+          <h1 className="text-4xl font-extrabold mb-8 text-gray-800 dark:text-white border-b-4 border-green-500 inline-block">
             Nos Services
           </h1>
         </AnimatedElement>
         <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3  gap-6 pt-[30px]">
           {servicesDataImg.map((service) => (
-            <AnimatedElement>
-              <div
-                key={service.id}
-                className="border dark:border-none p-4 rounded shadow bg-white dark:bg-[#333] transform transition-transform duration-300 hover:scale-105 cursor-pointer group-hover:shadow-lg"
-              >
+            <AnimatedElement key={service.id}>
+              <div className="border dark:border-none p-4 rounded shadow bg-white dark:bg-[#333] transform transition-transform duration-300 hover:scale-105 cursor-pointer group-hover:shadow-lg">
                 <img
                   src={service.src}
                   alt={service.title}
