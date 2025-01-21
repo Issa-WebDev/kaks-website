@@ -1,4 +1,5 @@
 import React from "react";
+import AnimatedElement from "./AnimatedElement";
 
 const Partners = () => {
   const partners = [
@@ -9,27 +10,30 @@ const Partners = () => {
   ];
 
   return (
-    <section id="partners" className="py-12 pt-[120px] bg-gray-50">
+    <section
+      id="partners"
+      className="py-12 pt-[120px] bg-gray-50 dark:bg-[#111]"
+    >
       <div className="container text-center mx-auto px-6">
-        <h2
-          className="text-2xl md:text-3xl font-bold mb-8"
-          data-aos="fade-right"
-        >
-          Nos Partenaires
-        </h2>
+        <AnimatedElement>
+          <h1 class="text-4xl font-extrabold mb-8 text-gray-800 dark:text-white border-b-4 border-green-500 inline-block">
+            Nos Parténaires
+          </h1>
+        </AnimatedElement>
         <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {partners.map((partner) => (
-            <div
-              key={partner.id}
-              data-aos="fade-right"
-              className="bg-gray-100 shadow-md rounded-lg p-6 flex items-center justify-center hover:scale-105 transition-transform duration-300 ease-in-out"
-            >
-              <img
-                src={partner.logo}
-                alt={partner.name}
-                className="max-h-20 object-contain"
-              />
-            </div>
+            <AnimatedElement>
+              <div
+                key={partner.id}
+                className="bg-gray-100 dark:bg-[#222] shadow-md dark:shadow-none rounded-lg p-6 flex items-center justify-center hover:scale-105 transition-transform duration-300 ease-in-out border dark:border-none"
+              >
+                <img
+                  src={partner.logo}
+                  alt={partner.name}
+                  className="max-h-20 object-contain"
+                />
+              </div>
+            </AnimatedElement>
           ))}
         </div>
       </div>

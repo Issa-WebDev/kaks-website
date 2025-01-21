@@ -1,78 +1,65 @@
 import React from "react";
+import AnimatedElement from "./AnimatedElement";
 
 const servicesDataImg = [
   {
     id: 1,
     title: "Nettoyage Industriel",
-    description: "Description du service image 1.",
-    type: "image",
-    src: "/images/n-industi.jpg",
+    src: "/images/industriel.jpg",
   },
   {
     id: 2,
-    title: "Nettoyage de façade extérieures et intérieure",
-    description: "Description du service image 2.",
-    type: "image",
-    src: "/images/n-facade.jpg",
-  },
-];
-const servicesData = [
-  {
-    id: 1,
-    title: "Nettoyage Résidentiel",
-    src: "/videos/n-residentiel.mp4",
-  },
-  {
-    id: 2,
-    title: "Prestations Diverses",
-    src: "/videos/divers.mp4",
+    title: "Nettoyage de façade extérieure et intérieure",
+    src: "/images/facade.jpg",
   },
   {
     id: 3,
-    title: "Désinsectisation",
-    src: "/videos/desinsectisation.mp4",
+    title: "Nettoyage Particulier",
+    src: "/images/residentiel.jpg",
+  },
+  {
+    id: 4,
+    title: "Désinfection - Désinsectisation",
+    src: "/images/dd.jpg",
+  },
+  {
+    id: 5,
+    title: "Ponçage et lustrage du Mabre",
+    src: "/images/ponçage.jpg",
+  },
+  {
+    id: 6,
+    title: "Prestation Diverses",
+    src: "/images/p-divers.jpg",
   },
 ];
 
 const Services = () => {
   return (
-    <section className="py-12 pt-[120px] bg-white">
+    <section id="services" className="py-12 pt-[120px] bg-white dark:bg-[#222]">
       <div className="container mx-auto text-center px-6">
-        <h2 className="text-3xl font-bold mb-8" data-aos="fade-right">
-          Nos Services
-        </h2>
-        <div className="services-container grid grid-cols-1 md:grid-cols-3 gap-6">
-          {servicesData.map((service) => (
-            <div
-              key={service.id}
-              data-aos="fade-right"
-              className="service-card border p-4 rounded shadow bg-gray-100"
-            >
-              <h3 className="text-md font-semibold mb-4" data-aos="fade-right">
-                {service.title}
-              </h3>
-              <video controls className="w-full h-60 mb-2">
-                <source src={service.src} type="video/mp4" />
-              </video>
-            </div>
-          ))}
-        </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 pt-[30px]">
+        <AnimatedElement>
+          <h1 class="text-4xl font-extrabold mb-8 text-gray-800 dark:text-white border-b-4 border-green-500 inline-block">
+            Nos Services
+          </h1>
+        </AnimatedElement>
+        <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3  gap-6 pt-[30px]">
           {servicesDataImg.map((service) => (
-            <div
-              key={service.id}
-              data-aos="fade-right"
-              className="border p-4 rounded shadow bg-white"
-            >
-              <h3 className="text-md font-semibold w-full mb-4">
-                {service.title}
-              </h3>
-              <img
-                src={service.src}
-                alt={service.title}
-                className="w-full h-96 object-cover rounded shadow-md transform transition-transform duration-300 hover:scale-105 cursor-pointer hover:shadow-lg"
-              />
-            </div>
+            <AnimatedElement>
+              <div
+                key={service.id}
+                className="border dark:border-none p-4 rounded shadow bg-white dark:bg-[#333] transform transition-transform duration-300 hover:scale-105 cursor-pointer group-hover:shadow-lg"
+              >
+                <img
+                  src={service.src}
+                  alt={service.title}
+                  className="w-full h-64 object-cover rounded shadow-md transform transition-transform duration-300 hover:scale-105 cursor-pointer hover:shadow-lg"
+                />
+                <h3 className="text-lg dark:text-white font-semibold pt-5 w-full mb-4">
+                  {service.title}
+                </h3>
+              </div>
+            </AnimatedElement>
           ))}
         </div>
       </div>

@@ -1,7 +1,5 @@
 // App.jsx
-import { React, useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -14,17 +12,11 @@ import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import Partners from "./components/Partners";
 import QRCodeGenerator from "./components/QRCodeGenerator";
+import ThemeProvider from "./ThemesContext";
 
 function App() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1200,
-      once: true,
-    });
-  }, []);
-
   return (
-    <>
+    <ThemeProvider>
       <Header />
       <Hero />
       <About />
@@ -37,7 +29,7 @@ function App() {
       <Partners />
       <Footer />
       <ScrollToTop />
-    </>
+    </ThemeProvider>
   );
 }
 
