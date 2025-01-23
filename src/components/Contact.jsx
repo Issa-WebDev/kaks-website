@@ -18,6 +18,22 @@ const Contact = () => {
             Contactez Nous
           </h1>
         </AnimatedElement>
+        {/* formulaire email */}
+        <AnimatedElement>
+          <div className="mt-6">
+            <p className="text-lg dark:text-white">
+              Vous pouvez mous envoyer un e-mail au :
+              <a
+                href="mailto:infoskaksetablissement@gmail.com"
+                className="text-blue-600 hover:text-blue-700 flex items-center justify-center transform transition-transform duration-300 hover:scale-105 hover:shadow-lg"
+              >
+                <FaEnvelope size={20} className="mr-2" />
+                infoskaksetablissement@gmail.com
+              </a>
+            </p>
+          </div>
+        </AnimatedElement>
+        {/* service_9ph8km5 */}
         <div className="space-y-6">
           <AnimatedElement>
             <p className="text-lg dark:text-white">
@@ -61,22 +77,6 @@ const Contact = () => {
               >
                 <FaInstagram size={25} />
               </a>
-            </div>
-          </AnimatedElement>
-
-          {/* Lien email avec icône */}
-          <AnimatedElement>
-            <div className="mt-6">
-              <p className="text-lg dark:text-white">
-                Vous pouvez mous envoyer un e-mail au :
-                <a
-                  href="mailto:infoskaksetablissement@gmail.com"
-                  className="text-blue-600 hover:text-blue-700 flex items-center justify-center transform transition-transform duration-300 hover:scale-105 hover:shadow-lg"
-                >
-                  <FaEnvelope size={20} className="mr-2" />
-                  infoskaksetablissement@gmail.com
-                </a>
-              </p>
             </div>
           </AnimatedElement>
 
