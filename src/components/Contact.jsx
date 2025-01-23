@@ -21,7 +21,7 @@ const Contact = () => {
         {/* formulaire email */}
         <AnimatedElement>
           <div className="mt-6">
-            <p className="text-lg dark:text-white">
+            <p className="text-lg dark:text-white mb-6">
               Vous pouvez mous envoyer un e-mail au :
               <a
                 href="mailto:infoskaksetablissement@gmail.com"

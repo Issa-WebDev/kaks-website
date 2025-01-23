@@ -4,19 +4,19 @@ import AnimatedElement from "./AnimatedElement";
 const Products = () => {
   const products = [
     {
-      name: "Monobrose (En Location)",
+      name: "Monobrose",
       img: "/images/monobrose.jpg",
       description:
         "machine électrique conçue pour nettoyer, décaper, lustrer et entretenir mécaniquement différents types de sols, durs ou souples. Elle est équipée d'un disque rotatif qui, associé à différents accessoires (brosses, disques de polissage), permet de traiter efficacement les surfaces.",
     },
     {
-      name: "Kartcher Triphasé (En Location)",
+      name: "Kartcher Triphasé",
       img: "/images/kartcher.jpg",
       description:
         "Sa pression permet de décoller les salissures les plus tenaces, même sur des surfaces très résistantes.",
     },
     {
-      name: "Autolaveuse (En Location)",
+      name: "Autolaveuse",
       img: "/images/gallery1.jpg",
       description:
         "(Nettoyage en un seul passage) Cette Autolaveuse applique une solution nettoyante sur le sol, frotte pour éliminer la saleté, puis aspire l'eau sale et les résidus. Cela permet un gain de temps considérable par rapport à un nettoyage manuel.",
@@ -53,6 +53,11 @@ const Products = () => {
             </AnimatedElement>
           ))}
         </div>
+        <AnimatedElement>
+          <p className="text-red-500 text-xl font-bold pt-11 text-center">
+            NB : Nos Matériels sont aussi en location.
+          </p>
+        </AnimatedElement>
       </div>
     </section>
   );

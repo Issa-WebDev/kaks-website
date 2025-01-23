@@ -25,7 +25,7 @@ const About = () => {
                 Notre Histoire
               </h1>
               <p className="text-gray-700 leading-relaxed italic pt-4 dark:border-none dark:text-white ">
-                Une aventure depuis 2017. En 2017, animés par une vision claire
+                Une aventure depuis 2017, animés par une vision claire
                 et une volonté de faire la différence dans le secteur du
                 nettoyage, la structure KAK’S ETS a été fondée. Dès le départ,
                 notre objectif était simple : offrir des services de nettoyage
