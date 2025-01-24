@@ -25,7 +25,7 @@ function App() {
       <Gallery />
       <Testimonials />
       <Contact />
-      <QRCodeGenerator url={"https://kaks-gamma.vercel.app/"} />
+      {/* <QRCodeGenerator url={"https://kaks-gamma.vercel.app/"} /> */}
       <Partners />
       <Footer />
       <ScrollToTop />

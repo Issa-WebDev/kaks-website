@@ -5,7 +5,7 @@ const Testimonials = () => {
   const testimonials = [
     {
       name: "- Soualio Cissé",
-      feedback: "Ma maison est irréprochables , Merci Kak´s",
+      feedback: "Ma maison est irréprochable, Merci Kak´s",
     },
     {
       name: "- Marie Ange Kouassi",

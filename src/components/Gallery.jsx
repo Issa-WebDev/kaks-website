@@ -29,7 +29,7 @@ const Gallery = () => {
       <div className="container mx-auto text-center px-6">
         <AnimatedElement>
           <h1 className="text-4xl font-extrabold mb-8 text-gray-800 dark:text-white border-b-4 border-green-500 inline-block">
-            Gallerie D'Images
+            Galerie D'Images
           </h1>
         </AnimatedElement>
 

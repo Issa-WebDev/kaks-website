@@ -4,20 +4,20 @@ import AnimatedElement from "./AnimatedElement";
 const Products = () => {
   const products = [
     {
-      name: "Monobrose",
-      img: "/images/monobrose.jpg",
-      description:
-        "machine électrique conçue pour nettoyer, décaper, lustrer et entretenir mécaniquement différents types de sols, durs ou souples. Elle est équipée d'un disque rotatif qui, associé à différents accessoires (brosses, disques de polissage), permet de traiter efficacement les surfaces.",
-    },
-    {
       name: "Kartcher Triphasé",
-      img: "/images/kartcher.jpg",
+      img: "/images/kartcherT.png",
       description:
         "Sa pression permet de décoller les salissures les plus tenaces, même sur des surfaces très résistantes.",
     },
     {
+      name: "Monobrose",
+      img: "/images/monoB.png",
+      description:
+        "machine électrique conçue pour nettoyer, décaper, lustrer et entretenir mécaniquement différents types de sols, durs ou souples. Elle est équipée d'un disque rotatif qui, associé à différents accessoires (brosses, disques de polissage), permet de traiter efficacement les surfaces.",
+    },
+    {
       name: "Autolaveuse",
-      img: "/images/gallery1.jpg",
+      img: "/images/autoL.png",
       description:
         "(Nettoyage en un seul passage) Cette Autolaveuse applique une solution nettoyante sur le sol, frotte pour éliminer la saleté, puis aspire l'eau sale et les résidus. Cela permet un gain de temps considérable par rapport à un nettoyage manuel.",
     },
@@ -42,11 +42,11 @@ const Products = () => {
                   {product.name}
                 </h3>
                 <img
-                  className="w-[350px] h-[350px] object-cover py-6 rounded"
+                  className="w-[250px] h-[300px] object-cover py-6 rounded"
                   src={product.img}
                   alt={product.name}
                 />
-                <p className="text-gray-600 dark:text-white font-medium">
+                <p className="text-gray-600 dark:text-white text-left font-medium">
                   {product.description}
                 </p>
               </div>
