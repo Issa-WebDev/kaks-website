@@ -4,7 +4,7 @@ import AnimatedElement from "./AnimatedElement";
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "- Soualio Cissé",
+      name: "- Massamba Abdrahamane",
       feedback: "Ma maison est irréprochable, Merci Kak´s",
     },
     {

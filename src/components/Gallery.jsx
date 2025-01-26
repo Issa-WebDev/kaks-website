@@ -5,7 +5,7 @@ import AnimatedElement from "./AnimatedElement";
 
 // Génération dynamique de 30 images
 const images = Array.from(
-  { length: 30 },
+  { length: 40 },
   (_, i) => `/images/gallery${i + 1}.jpg`
 );
 
